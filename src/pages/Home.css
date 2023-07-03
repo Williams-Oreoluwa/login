@@ -1,0 +1,151 @@
+@font-face {
+    font-family: regular;
+    src: url('/FONTS/Alkatra-Regular.ttf');
+}
+*{
+    font-family: regular;
+}
+
+.image-name {
+  width: 100%;
+  height: 100vh;
+}
+.login-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.login-text {
+  position: absolute;
+  bottom: 3.6rem;
+  left: 3rem;
+  width: 80%;
+  height: 30%;
+  background: #552bcc40 25%;
+  display: grid;
+  place-items: left;
+  gap: 0.6rem;
+  padding: 0.4rem 3rem;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: regular;
+  font-size: 13px
+}
+.login-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.login-form {
+  position: relative;
+  display: grid;
+  place-items: left;
+  padding-top: 4rem;
+}
+.login-info {
+  position: relative;
+  top: -3rem;
+  right: -3rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: left;
+  gap: 1rem;
+  width: 100%;
+}
+.new-user {
+  position: relative;
+  right: 5.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.password-strength {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+  font-size: 10px;
+}
+.new-password {
+  position: relative;
+  display: grid;
+  gap: 0;
+  place-items: left;
+  padding-top: -2rem;
+}
+
+@media screen and (max-width: 1264px) {
+  .login-text {
+    height: 34%;
+  }
+  .image-name {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .login-text {
+    height: 30%;
+  }
+  .image-name {
+    width: 100%;
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 900px) {
+  .login-text {
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .login-image {
+    display: none;
+  }
+  .login-wrapper {
+    display: grid;
+    grid-template-columns: none;
+    gap: 1rem;
+  }
+  .login-info {
+    width: 100%;
+    position: relative;
+    top: -3rem;
+    left: 4.5rem;
+
+    justify-content: left;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .login-info {
+    width: 100%;
+    position: relative;
+
+    left: 3.4rem;
+
+    justify-content: left;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .login-info {
+    left: 2rem;
+  }
+  .new-user {
+    position: relative;
+    left: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
