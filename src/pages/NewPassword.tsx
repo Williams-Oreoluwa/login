@@ -28,7 +28,7 @@ const NewPassword: React.FC = () => {
 
   return (
     <IonPage>
-      <IonContent scrollY={false}>
+      <IonContent>
         <div className="login-system new-password">
           <div className="login-wrapper">
             <div className="login-image">
@@ -58,12 +58,12 @@ const NewPassword: React.FC = () => {
 
                   <h6
                     style={{
-                      fontSize: "15px",
+                      fontSize: "11.5px",
                       color: "#324054",
                       fontWeight: "100",
                     }}
                   >
-                    Almost done, enter your new password & you are set.
+                    Almost done, enter your new password  & you are set.
                   </h6>
                 </div>
 
@@ -98,29 +98,37 @@ const NewPassword: React.FC = () => {
                       <div className="items">
                         <img src="./✅.png" alt="" />
 
-                        <h6 style={{fontSize:'.8rem'}}>1 lowercase character</h6>
+                        <h6 style={{ fontSize: ".6rem" }}>
+                          1 lowercase character
+                        </h6>
                       </div>
                       <div className="items">
                         <img src="./✅.png" alt="" />
 
-                        <h6 style={{fontSize:'.8rem'}}>1 uppercase character</h6>
+                        <h6 style={{ fontSize: ".6rem" }}>
+                          1 uppercase character
+                        </h6>
                       </div>
                       <div className="items">
                         <img src="./✅.png" alt="" />
 
-                        <h6 style={{fontSize:'.8rem'}}>1 numeric digit</h6>
+                        <h6 style={{ fontSize: ".6rem" }}>1 numeric digit</h6>
                       </div>
                     </div>
                     <div className="col-2">
                       <div className="items">
                         <img src="./✅.png" alt="" />
 
-                        <h6 style={{fontSize:'.8rem'}}>1 special character</h6>
+                        <h6 style={{ fontSize: ".5rem" }}>
+                          1 special character
+                        </h6>
                       </div>
                       <div className="items">
                         <img src="./✅.png" alt="" />
 
-                        <h6 style={{fontSize:'.8rem'}}>8 characters minimum </h6>
+                        <h6 style={{ fontSize: ".5rem" }}>
+                          8 characters minimum{" "}
+                        </h6>
                       </div>
                     </div>
                   </div>

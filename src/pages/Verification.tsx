@@ -25,7 +25,7 @@ import {
 const Verication: React.FC = () => {
   return (
     <IonPage>
-      <IonContent scrollY={false}>
+      <IonContent>
         <div className="login-system">
           <div className="login-wrapper">
             <div className="login-image">
